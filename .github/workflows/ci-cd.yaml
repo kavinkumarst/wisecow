@@ -29,7 +29,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: <your-docker-image-repo>/wisecow-app:latest
+        tags: kavinkumarst/wisecow-app:latest
 
     - name: Deploy to Kubernetes
       uses: azure/setup-kubectl@v1
