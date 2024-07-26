@@ -16,4 +16,4 @@ spec:
       - name: wisecow
         image: <your-docker-image-repo>/wisecow-app:latest
         ports:
-        - containerPort: 8000
+        - containerPort: 4499
