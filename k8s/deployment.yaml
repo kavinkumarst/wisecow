@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: kavinkumarst/wisecow-app:latest
+        image: <your-docker-image-repo>/wisecow-app:latest
         ports:
         - containerPort: 8000
-
